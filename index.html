@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    
+    <div class="welcome">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="bg main"></div>
+            <div class="content">
+              <div class="title">PENCRAFT</div>
+              <div class="sub_title">
+                От людей <br />
+                И для людей
+              </div>
+              <a href="products.html" class="btn">наш товарный лист</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg about"></div>
+            <div class="content">
+              <div class="title">О нас</div>
+              <div class="sub_title">
+                Наш путь <br />
+                Небольшая биография нашей компании
+              </div>
+              <a href="about.html" class="btn">Ознакомиться</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg products"></div>
+            <div class="content">
+              <div class="title">Ассортимент</div>
+              <div class="sub_title">
+                У нас вы найдёте много утончённых и от того не менее эффективных и удобных ручек <br />
+                По объективным ценам
+              </div>
+              <a href="products.html" class="btn">Ассортимент</a>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="cardlist">
+      <div class="carditem">
+        <div class="img"></div>
+        <div class="cardcontent">
+          <div class="title">Надёжная основа</div>
+          <div class="content">Ручки поставляются без посредников прямо на склад</div>
+        </div>
+      </div>
+      <div class="carditem">
+        <div class="img"></div>
+        <div class="cardcontent">
+          <div class="title">Долгодейственная</div>
+          <div class="content">
+            Чернила в наших ручках более густые
+          </div>
+        </div>
+      </div>
+      <div class="carditem">
+        <div class="img"></div>
+        <div class="cardcontent">
+          <div class="title">Удобные картриджи для заправки</div>
+          <div class="content">Можно перезаправить за минуту</div>
+        </div>
+      </div>
+    </div>
+    <div class="companyinfo">
+      <div class="title">Почему мы?</div>
+      <div class="content">
+        <div class="left">
+          <div class="p">
+            Наш ассортимент хоть и не богатый, но в полне себе может удивить как
+            рядового, так и опытного пользователя ручек. Как уже говорилось ранее
+            в нашем ассортименте присутствуют разные модели и виды ручек.
+            Прекрасные и веющие благородством перьевые ручки и не намного отстающие 
+            от них шариковые, делают наш товарный лист хорошим как в дорогом так и в среднем 
+            ценовом сегменте. Товарный лист представлен лишь некоторыми "Показательными"
+            моделями наших ручек, но если вас заинтересовал наш ассортимент вы можете
+            оставить свою ФИО и почту чтобы наши сотрудники донесли до вас абсолютно весь наш ассортимент
+          </div>
+          <a href="about.html" class="btn">О нас</a>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="title">Не нашли нужную вам ручку?</div>
+      <div class="form">
+        <ul class="social-icons">
+          <li><a class="social-icon-twitter" href="" title="" target="_blank" rel="noopener"></a></li>
+          <li><a class="social-icon-fb" href="" title="" target="_blank" rel="noopener"></a></li>
+          <li><a class="social-icon-vk" href="https://vk.com/platinumpen" title="" target="_blank" rel="noopener"></a></li>
+          <li><a class="social-icon-telegram" href="" title="" target="_blank" rel="noopener"></a></li>
+          <li><a class="social-icon-youtube" href="https://www.youtube.com/watch?v=ZZWB8odN7OI" title="" target="_blank" rel="noopener"></a></li>
+        </ul>
+        <div class="inputs">
+          <input type="text" placeholder="Ф.И.О">
+          <input type="email" placeholder="E-mail">
+          <input type="email" placeholder="Номер телефона">
+          <input type="email" placeholder="Модель понравившейся вам ручки">
+          <div class="button form">Отправить</div>
+        </div>
+      </div>
+
+      <div class="logo">
+        <img src="img/logo.png" />
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
